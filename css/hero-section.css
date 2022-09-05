@@ -1,0 +1,22 @@
+.hero-section{
+    height: 30rem;
+    margin: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-section .about-text{
+    margin: 10rem;
+}
+
+.hero-section img{
+    border-radius: 10rem;
+}
+
+@media screen and (max-width: 800px){
+    .hero-section{
+        flex-wrap: wrap;
+        height: 50rem;
+    }
+}

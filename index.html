@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ann Kristin</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/hero-section.css">
+</head>
+<body>
+    <div class="overlay">
+
+    </div>
+    <div class="sideNav">
+        <div>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav(),rotateMenu()">&times;</a>
+            <a href="#about">About</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#buy">Buy</a>
+            <!--
+            <a href="#activity">Activity</a>
+            <a href="#contact">Contact</a>
+            -->
+            
+        </div>
+        <div class="nav-links">
+            <a class="instagram" href="https://instagram.com/"></a>
+            <a class="facebook" href="https://facebook.com"></a>
+        </div>
+        <div class="navigation-box">
+            <img onclick=openNav(),rotateMenu() class="menu-icon" src="svg/burger_icon.svg" alt="hamburger-svg">
+         </div>
+    </div>
+
+    <div id="about" class="hero-section">
+        <div class="author-card">
+            <!-- To be changed -->
+            <img src="https://picsum.photos/200" alt="lorem-img">
+            <p>&RightArrowBar;Ann Kristin</p>
+        </div>
+        
+        <div class="about-text">
+            
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis fugiat hic neque delectus reiciendis. Nesciunt, consequuntur provident deserunt consectetur praesentium, alias corporis repellat at aliquam libero aut possimus, omnis labore.</p>
+        </div>
+    </div>
+    
+    <div id="gallery" class="gallery">
+        <h2 >Gallery</h2>
+    </div>
+
+    <script src="./script/readFiles.js"></script>
+    <script src="./script/displayImages.js"></script>
+    <script src="./script/navigation.js"></script>
+</body>
+</html>
+

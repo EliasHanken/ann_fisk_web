@@ -1,0 +1,122 @@
+.navigation-box{
+    position: fixed;
+    width: 3.5rem;
+    height: 3.5rem;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    margin: 2rem;
+    mix-blend-mode:difference;
+}
+
+.menu-icon{
+    transform: rotate(0);
+    transition: transform 0.3s;
+    filter: invert();
+    cursor: pointer;
+}
+
+.login-btn{
+    position: fixed;
+    width: 6rem;
+    height: 3.5rem;
+    z-index: 1;
+    top: 0;
+    right: 6rem;
+    margin: 2rem;
+    border: none;
+    border-radius: 0.67rem;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #469beb;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 1.5rem;
+    transition: width 0.3s ease-in-out;
+}
+
+.login-btn:hover{
+    width: 6.5rem;
+    height: 4rem;
+    transition: width 0.3s;
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5rem;
+}
+
+.nav-links a{
+    height: 4rem;
+    width: 4rem;
+}
+
+.nav-links .discord{
+    background-image: url('../svg/discord-svgrepo-com.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: invert();
+}
+
+.nav-links .twitter{
+    background-image: url('../svg/twitter-svgrepo-com.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: invert();
+}
+/*
+.nav-links a:hover{
+    height: 5rem;
+    width: 5rem;
+}
+*/
+
+.sideNav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    background-color: rgba(17, 17, 17, 0.7);
+    overflow-x: hidden;
+    padding-top: 6rem;
+    transition: 0.5s;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sideNav a{
+    padding: 0.8rem 0.8rem 0.8rem 3.2rem;
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: #acacac;
+    display: block;
+    transition: 0.3s;
+}
+
+.sideNav a:hover{
+    color: #f1f1f1;
+}
+
+.sideNav .closeBtn{
+    position: absolute;
+    top: 0;
+    right: 2.5rem;
+    font-size: 3.6rem;
+    margin-left: 5rem;
+}
+
+#main{
+    transition: margin-left .5s;
+    padding: 2rem;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 1.5rem;}
+    .sidenav a {font-size: 1.8rem;}
+  }
