@@ -5,8 +5,13 @@ function displayImages(){
                 <img src=jpg/${i}.jpg alt=img${i} width=300px>
             </div>
         `;
+        
         console.log("test");
     }
+}
+
+function preview(){
+
 }
 
 window.onload = displayImages();

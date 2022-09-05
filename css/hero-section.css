@@ -1,5 +1,5 @@
 .hero-section{
-    height: 50rem;
+    height: 60rem;
     margin: 10rem;
     display: flex;
     align-items: center;
@@ -7,9 +7,17 @@
     justify-content: center;
 }
 
+.backgroun-image{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
 .hero-section .about-text{
     margin: 10rem;
     text-align: center;
+    width: 60%;
 }
 
 .hero-section img{
